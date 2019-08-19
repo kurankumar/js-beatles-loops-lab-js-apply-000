@@ -14,17 +14,28 @@ function theBeatlesPlay (musicians, instruments){
   return allMusicians;
 }
 
+<<<<<<< HEAD
 
 function johnLennonFacts(facts){
   var factsExclaimed = [];
   var i = 0;
   
   while (i < facts.length){
+=======
+var factsExclaimed = [];
+function johnLennonFacts(facts){
+  console.log(facts.Length);
+  
+  var i = 0;
+  
+  while (i < facts.Length){
+>>>>>>> a07befdfb799e0fa3e21b122ca2f3e152a352085
     factsExclaimed[i] = facts[i];
     factsExclaimed[i] = factsExclaimed[i] + "!!!";
     i++;
   }
   return factsExclaimed;
+<<<<<<< HEAD
 }
 
 
@@ -51,3 +62,7 @@ function iLoveTheBeatles(x){
 }
 
 
+=======
+  
+}
+>>>>>>> a07befdfb799e0fa3e21b122ca2f3e152a352085
